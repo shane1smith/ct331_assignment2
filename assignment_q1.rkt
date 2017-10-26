@@ -1,1 +1,11 @@
 #lang racket
+; Q1 (a)
+(cons 1 2)
+; (b)
+(cons '1 '(2 3))
+; (c)
+(cons '("Shane" 1) '(2 3 4))
+; (d)
+(list '"String" '1 '(2 3 4))
+; (e)
+(append '("String") '(1) '(2 3 4))
